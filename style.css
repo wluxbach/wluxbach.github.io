@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700;800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  font-family: 'Lato', sans-serif;
+  background: #37373e;
+  color: white;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+img {
+  border-radius: 30px;
+  margin: 5px;
+  
+
+}
+.lists {
+  list-style:none;
+}
+.lists li:before {
+  content: "+";
+  padding-right: 5px;
+  color: #9a7ca3;
+}
+.listsblue {
+  list-style:none;
+}
+.listsblue li:before {
+  content: "+";
+  padding-right: 5px;
+  color: #4169e1;
+}
+
+ .about{
+  font-size: 15px;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  background: #27272b;
+  border-radius: 15px;
+
+}
+@media screen and (max-width: 480px) {
+.navlinks {
+  list-style: none;
+  font-size: 10px;
+  }
+  .title {
+     font-size: 12.5px;
+  }
+}
+@media screen and (min-width: 601px) {
+  .navlinks {
+    font-size: 15px;
+  }
+  .title {
+    font-size: 20px;
+  }
+}
+
+.navlinks li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
+}
+
+.navlinks li a {
+  
+  text-decoration: none;
+  color: white;
+}
+
+.navlinks li a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.navlinks li a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.navlinks li a:hover {
+  transition:  color .5s, outline-color .5s;
+  outline:  1px solid;
+  outline-color: lightblue;
+  outline-offset: 3px;
+  color: lightblue;
+  border-radius: 3px;
+
+}
+.title {
+  margin-right: auto;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+  
+}
+.title:active {
+  color: white;
+  text-decoration: none;
+}
+.title:visited {
+  color: white;
+  text-decoration: none;
+}
+.title:hover {
+  text-decoration: none;
+  transition: color .5s, text-shadow .5s;
+  color:lightblue;
+  text-shadow: lightblue 1px 0 10px;
+}
+.hoverlink:hover {
+  color: #9a7ca3;
+  text-decoration: underline;
+}
+.hoverlink {
+  color: lightblue;
+  text-decoration: none;
+}
+.imagepack img {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 15px;
+}
+.imgcite {
+  color: lightgoldenrodyellow;
+  text-decoration: none;
+}
+.imgcite:hover {
+  text-decoration: underline;
+}
+
+.imagepack {
+  text-align:center;
+  
+}
+
+
+.citep {
+  font-size: 10px;
+}
+
+  @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+.authors {
+  font-family: 'Fira Code', monospace;
+  color:#C0C0C0;
+  text-shadow: #4169e1 1px 0 10px;
+}
